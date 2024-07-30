@@ -108,6 +108,38 @@ approximated by piecewise smooth functions. Minimizing the total variation of th
 image encourages these sparse gradients.
 4. This method is able to effectively remove noise while preserving important image
 structures like edges.
+1. Liang, Z., Shi, G., & Zhang, W. (2016). Image restoration using adaptive sparse representation 
+and intensity/gradient prior. Signal, Image and Video Processing, 10(5), 821-828
+ 2.Rudin, L. I., Osher, S., & Fatemi, E. (1992). Nonlinear total variation based noise removal algorithms. 
+Physica D: Nonlinear Phenomena, 60(1-4), 259-268.
+Elad, M., & Aharon, M. (2006). Image denoising via sparse and redundant representations over learned 
+dictionaries. IEEE Transactions on Image processing, 15(12), 3736-3745. This paper introduces the 
+concept of learned dictionaries for image denoising, a different approach from TV methods.
+3. Kingma, D. P., & Welling, M. (2013). Auto-encoding 
+variational bayes. arXiv preprint arXiv:1312.6114. This paper introduces variational autoencoders, which 
+have been applied to image restoration tasks.
+4. Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-
+Farley, D., Ozair, S., ... & Bengio, Y. (2014). Generative adversarial nets. Advances in neural information 
+processing systems, 27. This introduces GANs, which have been used for various image restoration tasks.
+5. Ulyanov, D., Vedaldi, A., & Lempitsky, V. (2018). Deep image prior. In Proceedings of the IEEE 
+conference on computer vision and pattern recognition (pp. 9446-9454).This paper presents an 
+interesting approach that uses Romano, Y., Elad, M., & Milanfar, P. (2017). The little engine That could: 
+Regularization by denoising (RED). SIAM Journal on Imaging Sciences, 10(4), 1804-1844.This paper 
+introduces a novel framework that uses denoising Algorithms as regularizers.
+6.Cheng, J., Gao, Y., Guo, B., Zuo, W.: Image restoration using spa-Tally variant hyper-Laplacian prior. 
+Signal Image Video Process
+13(1), 155–162 (2019)
+Prasath, V.B.S., Vorotnikov, D., Pelapur, R., Jose, S., SeetharamanG., Palaniappan, K.: Multiscale 
+Tikhonov-total variation image
+7. Thanh, D.N.H., Dvoenko, S.: A variational method to remove theCombination of poisson and Gaussian 
+noises. In: 5th InternationalWorkshop on Image Mining: Theory and Applications, pp. 38–45,Germany 
+(2015)
+8.Chambolle, A., & Lions, P. L. (1997). Image recovery via total Variation minimization and related 
+problems. Numerische 
+9.Mathematik, 76(2), 167-188.This paper discusses higher-order total variation models.Papafitsoros, K., 
+& Schönlieb, C. B. (2014). A combined first And second order variational approach for image 
+Reconstruction. Journal of Mathematical Imaging and Vision, 48(2), 308-338. This work is relevant to the 
+combined first and second-order Total variation approach discussed in the document.
 
 https://drive.google.com/drive/folders/1CjIhrT3vHCP9ypGNFZNO1dpOWKjXzpGJ
 
